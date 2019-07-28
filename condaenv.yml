@@ -1,0 +1,19 @@
+name: popsim
+channels:
+    - conda-forge
+    - bioconda
+dependencies:
+    - python=3.7.*
+    - mason
+    - numpy
+    - pyyaml
+    - scrm
+    - seq-gen
+    - seqhax
+    - snakemake
+    - scipy
+    - skbio
+    - screed
+    - pip
+    - pip:
+        - ete3
